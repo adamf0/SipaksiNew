@@ -10,11 +10,11 @@ ini merupakan prototype aplikasi sipaksi terbaru menggunakan teknologi <b>NET Co
 
 ### Task
 1. pembuatan modularisasi
-    1.1 uji coba pembuatan modul
-        1.1.1 koneksi database module
-        1.1.2 crud per modul
-        1.1.3 config per modul
-        1.1.4 relasional & join beda koneksi database
+    <br>1.1 uji coba pembuatan modul
+    <br>1.1.1 koneksi database module
+    <br>1.1.2 crud per modul
+    <br>1.1.3 config per modul
+    <br>1.1.4 relasional & join beda koneksi database
 2. migrasi semua fitur dosen, lppm, fakultas & auditor
 3. penerapan clean architecture
 4. penerapan cqrs
