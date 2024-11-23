@@ -12,6 +12,8 @@
 	</ItemGroup>
 	
   <ItemGroup>
+    <ProjectReference Include="..\SipaksiNew.Common.Application\SipaksiNew.Common.Application.csproj" />
+    <ProjectReference Include="..\SipaksiNew.Common.Domain\SipaksiNew.Common.Domain.csproj" />
     <ProjectReference Include="..\SipaksiNew.Modules.User.Domain\SipaksiNew.Modules.User.Domain.csproj" />
   </ItemGroup>
 

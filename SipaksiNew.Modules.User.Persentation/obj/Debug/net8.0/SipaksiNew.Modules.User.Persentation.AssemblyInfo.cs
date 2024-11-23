@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SipaksiNew.Modules.User.Persentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+496c9447616c5c55af8fb6aa339a5c655665e5a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b6c69bde68ec30d37eb303de0c190499056a671")]
 [assembly: System.Reflection.AssemblyProductAttribute("SipaksiNew.Modules.User.Persentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SipaksiNew.Modules.User.Persentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

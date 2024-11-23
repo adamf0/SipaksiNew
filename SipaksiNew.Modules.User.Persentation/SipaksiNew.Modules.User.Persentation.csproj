@@ -8,6 +8,7 @@
 	</PropertyGroup>
 	
   <ItemGroup>
+    <ProjectReference Include="..\SipaksiNew.Common.Domain\SipaksiNew.Common.Domain.csproj" />
     <ProjectReference Include="..\SipaksiNew.Modules.User.Application\SipaksiNew.Modules.User.Application.csproj" />
   </ItemGroup>
 

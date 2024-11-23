@@ -4,10 +4,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SipaksiNew.Modules.User.Application.Abstractions.Data;
 using SipaksiNew.Modules.User.Domain.User;
-using SipaksiNew.Modules.User.Infrastructure.Data;
 using SipaksiNew.Modules.User.Infrastructure.Database;
 using SipaksiNew.Modules.User.Infrastructure.User;
 using SipaksiNew.Modules.User.Persentation.User;
+using SipaksiNew.Common.Application.Data;
+using SipaksiNew.Common.Infrastructure.Data;
 
 namespace SipaksiNew.Modules.User.Infrastructure
 {
@@ -19,6 +20,16 @@ namespace SipaksiNew.Modules.User.Infrastructure
         }
 
         public static IServiceCollection AddUserModule(
+            this IServiceCollection services,
+            IConfiguration configuration
+        )
+        {
+            services.AddInfrastructure(configuration);
+
+            return services;
+        }
+
+        /*public static IServiceCollection AddUserModule(
             this IServiceCollection services,
             IConfiguration configuration)
         {
@@ -32,7 +43,7 @@ namespace SipaksiNew.Modules.User.Infrastructure
             services.AddInfrastructure(configuration);
 
             return services;
-        }
+        }*/
 
         private static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {

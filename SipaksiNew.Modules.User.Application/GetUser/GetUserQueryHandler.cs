@@ -1,15 +1,16 @@
 ﻿using Dapper;
-using MediatR;
-using SipaksiNew.Modules.User.Application.Abstractions.Data;
+using SipaksiNew.Common.Application.Data;
+using SipaksiNew.Common.Application.Messaging;
+using SipaksiNew.Common.Domain;
 using SipaksiNew.Modules.User.Domain.User;
 using System.Data.Common;
 
 namespace SipaksiNew.Modules.User.Application.GetUser
 {
     internal sealed class GetUserQueryHandler(IDbConnectionFactory dbConnectionFactory)
-    : IRequestHandler<GetUserQuery, UserResponse?>
+    : IQueryHandler<GetUserQuery, UserResponse>
     {
-        public async Task<UserResponse?> Handle(GetUserQuery request, CancellationToken cancellationToken)
+        public async Task<Result<UserResponse>> Handle(GetUserQuery request, CancellationToken cancellationToken)
         {
             await using DbConnection connection = await dbConnectionFactory.OpenConnectionAsync();
 
@@ -26,9 +27,14 @@ namespace SipaksiNew.Modules.User.Application.GetUser
              WHERE id = @Id
              """;
 
-            Dapper.DefaultTypeMap.MatchNamesWithUnderscores = true;
+            DefaultTypeMap.MatchNamesWithUnderscores = true;
 
-            return await connection.QuerySingleOrDefaultAsync<UserResponse>(sql, new { Id = request.UserId });
+            var result = await connection.QuerySingleOrDefaultAsync<UserResponse?>(sql, new { Id = request.UserId });
+            if (result==null) {
+                return Result.Failure<UserResponse>(UserErrors.NotFound(request.UserId));
+            }
+
+            return result;
         }
     }
 }

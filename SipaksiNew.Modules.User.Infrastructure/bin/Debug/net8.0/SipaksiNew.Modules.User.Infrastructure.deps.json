@@ -10,6 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "MySql.EntityFrameworkCore": "8.0.0",
+          "SipaksiNew.Common.Application": "1.0.0",
+          "SipaksiNew.Common.Infrastructure": "1.0.0",
           "SipaksiNew.Modules.User.Application": "1.0.0",
           "SipaksiNew.Modules.User.Domain": "1.0.0",
           "SipaksiNew.Modules.User.Persentation": "1.0.0"
@@ -421,10 +423,35 @@
           }
         }
       },
+      "SipaksiNew.Common.Application/1.0.0": {
+        "dependencies": {
+          "MediatR": "12.4.1",
+          "SipaksiNew.Common.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SipaksiNew.Common.Application.dll": {}
+        }
+      },
+      "SipaksiNew.Common.Domain/1.0.0": {
+        "runtime": {
+          "SipaksiNew.Common.Domain.dll": {}
+        }
+      },
+      "SipaksiNew.Common.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MySql.EntityFrameworkCore": "8.0.0",
+          "SipaksiNew.Common.Application": "1.0.0"
+        },
+        "runtime": {
+          "SipaksiNew.Common.Infrastructure.dll": {}
+        }
+      },
       "SipaksiNew.Modules.User.Application/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
           "MediatR": "12.4.1",
+          "SipaksiNew.Common.Application": "1.0.0",
+          "SipaksiNew.Common.Domain": "1.0.0",
           "SipaksiNew.Modules.User.Domain": "1.0.0"
         },
         "runtime": {
@@ -432,12 +459,16 @@
         }
       },
       "SipaksiNew.Modules.User.Domain/1.0.0": {
+        "dependencies": {
+          "SipaksiNew.Common.Domain": "1.0.0"
+        },
         "runtime": {
           "SipaksiNew.Modules.User.Domain.dll": {}
         }
       },
       "SipaksiNew.Modules.User.Persentation/1.0.0": {
         "dependencies": {
+          "SipaksiNew.Common.Domain": "1.0.0",
           "SipaksiNew.Modules.User.Application": "1.0.0"
         },
         "runtime": {
@@ -794,6 +825,21 @@
       "sha512": "sha512-Idgg+mJEyAujqDPzA3APy9dNoyw0YQcNA65GgYjktDRtJ+nvx/hv+J+m6Eax3JJMGEYGy04oc5YNP6ZvQ3Y1vQ==",
       "path": "zstdsharp.port/0.7.1",
       "hashPath": "zstdsharp.port.0.7.1.nupkg.sha512"
+    },
+    "SipaksiNew.Common.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SipaksiNew.Common.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SipaksiNew.Common.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SipaksiNew.Modules.User.Application/1.0.0": {
       "type": "project",

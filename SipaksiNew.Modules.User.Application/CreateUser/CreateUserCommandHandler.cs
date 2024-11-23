@@ -1,15 +1,18 @@
-﻿using MediatR;
+﻿using SipaksiNew.Common.Application.Messaging;
+using SipaksiNew.Common.Domain;
 using SipaksiNew.Modules.User.Application.Abstractions.Data;
 using SipaksiNew.Modules.User.Domain.User;
 
 namespace SipaksiNew.Modules.User.Application.CreateUser
 {
-    internal sealed class CreateUserCommandHandler(IUserRepository userRepository, IUnitOfWork unitOfWork)
-    : IRequestHandler<CreateUserCommand, Guid>
+    internal sealed class CreateUserCommandHandler(
+    IUserRepository userRepository,
+    IUnitOfWork unitOfWork)
+    : ICommandHandler<CreateUserCommand, Guid>
     {
-        public async Task<Guid> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+        public async Task<Result<Guid>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
         {
-            var @user = Domain.User.User.Create(
+            Result<Domain.User.User> result = Domain.User.User.Create(
                 request.FirstName,
                 request.LastName,
                 request.Username,
@@ -17,11 +20,17 @@ namespace SipaksiNew.Modules.User.Application.CreateUser
                 request.EnrollmentDate
             );
 
-            userRepository.Insert(@user);
+            if (result.IsFailure)
+            {
+                return Result.Failure<Guid>(result.Error);
+            }
+
+            userRepository.Insert(result.Value);
 
             await unitOfWork.SaveChangesAsync(cancellationToken);
 
-            return @user.Id;
+            return result.Value.Id;
         }
     }
+
 }

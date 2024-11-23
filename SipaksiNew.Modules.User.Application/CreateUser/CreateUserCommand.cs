@@ -1,4 +1,4 @@
-﻿using MediatR;
+﻿using SipaksiNew.Common.Application.Messaging;
 
 namespace SipaksiNew.Modules.User.Application.CreateUser
 {
@@ -7,6 +7,6 @@ namespace SipaksiNew.Modules.User.Application.CreateUser
     string LastName,
     string Username,
     string Password,
-    DateTime EnrollmentDate) : IRequest<Guid>;
+    DateTime EnrollmentDate) : ICommand<Guid>;
 
 }

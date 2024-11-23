@@ -1437,12 +1437,55 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
+      "SipaksiNew.Common.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MediatR": "12.4.1",
+          "SipaksiNew.Common.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SipaksiNew.Common.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SipaksiNew.Common.Application.dll": {}
+        }
+      },
+      "SipaksiNew.Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SipaksiNew.Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SipaksiNew.Common.Domain.dll": {}
+        }
+      },
+      "SipaksiNew.Common.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MySql.EntityFrameworkCore": "8.0.0",
+          "SipaksiNew.Common.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SipaksiNew.Common.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SipaksiNew.Common.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "SipaksiNew.Modules.User.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Dapper": "2.1.35",
           "MediatR": "12.4.1",
+          "SipaksiNew.Common.Application": "1.0.0",
+          "SipaksiNew.Common.Domain": "1.0.0",
           "SipaksiNew.Modules.User.Domain": "1.0.0"
         },
         "compile": {
@@ -1455,6 +1498,9 @@
       "SipaksiNew.Modules.User.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SipaksiNew.Common.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SipaksiNew.Modules.User.Domain.dll": {}
         },
@@ -1468,6 +1514,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "MySql.EntityFrameworkCore": "8.0.0",
+          "SipaksiNew.Common.Application": "1.0.0",
+          "SipaksiNew.Common.Infrastructure": "1.0.0",
           "SipaksiNew.Modules.User.Application": "1.0.0",
           "SipaksiNew.Modules.User.Domain": "1.0.0",
           "SipaksiNew.Modules.User.Persentation": "1.0.0"
@@ -1486,6 +1534,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "SipaksiNew.Common.Domain": "1.0.0",
           "SipaksiNew.Modules.User.Application": "1.0.0"
         },
         "compile": {
@@ -4390,6 +4439,21 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "SipaksiNew.Common.Application/1.0.0": {
+      "type": "project",
+      "path": "../SipaksiNew.Common.Application/SipaksiNew.Common.Application.csproj",
+      "msbuildProject": "../SipaksiNew.Common.Application/SipaksiNew.Common.Application.csproj"
+    },
+    "SipaksiNew.Common.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SipaksiNew.Common.Domain/SipaksiNew.Common.Domain.csproj",
+      "msbuildProject": "../SipaksiNew.Common.Domain/SipaksiNew.Common.Domain.csproj"
+    },
+    "SipaksiNew.Common.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SipaksiNew.Common.Infrastructure/SipaksiNew.Common.Infrastructure.csproj",
+      "msbuildProject": "../SipaksiNew.Common.Infrastructure/SipaksiNew.Common.Infrastructure.csproj"
+    },
     "SipaksiNew.Modules.User.Application/1.0.0": {
       "type": "project",
       "path": "../SipaksiNew.Modules.User.Application/SipaksiNew.Modules.User.Application.csproj",
@@ -4418,6 +4482,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.20.1",
       "MySql.EntityFrameworkCore >= 8.0.0",
+      "SipaksiNew.Common.Application >= 1.0.0",
+      "SipaksiNew.Common.Infrastructure >= 1.0.0",
       "SipaksiNew.Modules.User.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -4450,6 +4516,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.Common.Application\\SipaksiNew.Common.Application.csproj": {
+              "projectPath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.Common.Application\\SipaksiNew.Common.Application.csproj"
+            },
+            "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.Common.Infrastructure\\SipaksiNew.Common.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.Common.Infrastructure\\SipaksiNew.Common.Infrastructure.csproj"
+            },
             "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.Modules.User.Infrastructure\\SipaksiNew.Modules.User.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.Modules.User.Infrastructure\\SipaksiNew.Modules.User.Infrastructure.csproj"
             }

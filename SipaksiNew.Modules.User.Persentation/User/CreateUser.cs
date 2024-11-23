@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
+using SipaksiNew.Common.Domain;
 using SipaksiNew.Modules.User.Application.CreateUser;
+using SipaksiNew.Modules.User.Persentation.ApiResults;
 
 namespace SipaksiNew.Modules.User.Persentation.User
 {
@@ -12,16 +14,15 @@ namespace SipaksiNew.Modules.User.Persentation.User
         {
             app.MapPost("user", async (Request request, ISender sender) =>
             {
-                var command = new CreateUserCommand(
+                Result<Guid> result = await sender.Send(new CreateUserCommand(
                     request.FirstName,
                     request.LastName,
                     request.Username,
                     request.Password,
-                    request.EnrollmentDate);
+                    request.EnrollmentDate)
+                );
 
-                Guid eventId = await sender.Send(command);
-
-                return Results.Ok(eventId);
+                return result.Match(Results.Ok, ApiResults.ApiResults.Problem);
             });
         }
 

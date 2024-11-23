@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SipaksiNew.Modules.User.Application.Abstractions.Data;
+using SipaksiNew.Modules.User.Infrastructure.User;
 
 namespace SipaksiNew.Modules.User.Infrastructure.Database
 {
@@ -10,6 +11,7 @@ namespace SipaksiNew.Modules.User.Infrastructure.Database
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Domain.User.User>().ToTable(Schemas.User);
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
         }
     }
 

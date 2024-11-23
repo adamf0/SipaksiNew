@@ -6,5 +6,8 @@
 		<UserSecretsId>14d13989-e31b-48bd-9851-f587e94486a0</UserSecretsId>
 		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\SipaksiNew.Common.Domain\SipaksiNew.Common.Domain.csproj" />
+	</ItemGroup>
 	
 </Project>

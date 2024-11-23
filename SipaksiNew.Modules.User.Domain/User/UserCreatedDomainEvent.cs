@@ -1,4 +1,5 @@
-﻿using SipaksiNew.Modules.User.Domain.Abstractions;
+﻿//using SipaksiNew.Modules.User.Domain.Abstractions;
+using SipaksiNew.Common.Domain;
 
 namespace SipaksiNew.Modules.User.Domain.User
 {

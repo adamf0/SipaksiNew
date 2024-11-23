@@ -1,4 +1,5 @@
-﻿using SipaksiNew.Modules.User.Domain.Abstractions;
+﻿using SipaksiNew.Common.Domain;
+//using SipaksiNew.Modules.User.Domain.Abstractions;
 
 namespace SipaksiNew.Modules.User.Domain.User
 {
@@ -20,13 +21,18 @@ namespace SipaksiNew.Modules.User.Domain.User
 
         public DateTime EnrollmentDate { get; private set; }
 
-        public static User Create(
+        public static Result<User> Create(
         string firstname,
         string lastname,
         string username,
         string password,
         DateTime enrollmentdate)
         {
+            if (username.Length>0)
+            {
+                return Result.Failure<User>(UserErrors.UsernameNotEmpty);
+            }
+
             var @user = new User
             {
                 Id = Guid.NewGuid(),

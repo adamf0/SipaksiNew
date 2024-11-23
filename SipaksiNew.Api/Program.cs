@@ -1,4 +1,8 @@
+using SipaksiNew.Api.Extensions;
+using SipaksiNew.Common.Application;
+using SipaksiNew.Common.Infrastructure;
 using SipaksiNew.Modules.User.Infrastructure;
+using System.Drawing.Printing;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +14,14 @@ var builder = WebApplication.CreateBuilder(args);
     });*/
 
 //builder.Services.AddControllers();
+//builder.Services.AddUserModule(builder.Configuration);
+
+builder.Configuration.AddModuleConfiguration(["User"]);
+builder.Services.AddApplication([SipaksiNew.Modules.User.Application.AssemblyReference.Assembly]);
+
+builder.Services.AddInfrastructure(builder.Configuration.GetConnectionString("Database")!);
 builder.Services.AddUserModule(builder.Configuration);
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAuthorization();

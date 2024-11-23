@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "SipaksiNew.Modules.User.Domain/1.0.0": {
+        "dependencies": {
+          "SipaksiNew.Common.Domain": "1.0.0"
+        },
         "runtime": {
           "SipaksiNew.Modules.User.Domain.dll": {}
+        }
+      },
+      "SipaksiNew.Common.Domain/1.0.0": {
+        "runtime": {
+          "SipaksiNew.Common.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SipaksiNew.Modules.User.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SipaksiNew.Common.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
