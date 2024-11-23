@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SipaksiNew.User.Entities;
+using SipaksiNew.Modules.User.Api.Entities;
 
-namespace SipaksiNew.User
+namespace SipaksiNew.Modules.User.Api
 {
     public static class UserModule
     {

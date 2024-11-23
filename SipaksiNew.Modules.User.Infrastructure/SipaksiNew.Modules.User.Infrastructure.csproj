@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>14d13989-e31b-48bd-9851-f587e94486a0</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+	  <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SipaksiNew.Modules.User.Application\SipaksiNew.Modules.User.Application.csproj" />
+    <ProjectReference Include="..\SipaksiNew.Modules.User.Domain\SipaksiNew.Modules.User.Domain.csproj" />
+    <ProjectReference Include="..\SipaksiNew.Modules.User.Persentation\SipaksiNew.Modules.User.Persentation.csproj" />
+  </ItemGroup>
+
+</Project>

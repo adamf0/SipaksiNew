@@ -1,4 +1,4 @@
-﻿namespace SipaksiNew.User.Entities
+﻿namespace SipaksiNew.Modules.User.Api.Entities
 {
     public class UserDTO
     {

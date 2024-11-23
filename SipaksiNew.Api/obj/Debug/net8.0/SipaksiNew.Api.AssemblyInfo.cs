@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SipaksiNew.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+496c9447616c5c55af8fb6aa339a5c655665e5a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SipaksiNew.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SipaksiNew.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SipaksiNew.User.Entities
+namespace SipaksiNew.Modules.User.Api.Entities
 {
     [Table("user")]
     public class User

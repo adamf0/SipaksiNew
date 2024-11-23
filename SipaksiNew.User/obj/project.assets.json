@@ -4251,9 +4251,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.User\\SipaksiNew.User.csproj",
-      "projectName": "SipaksiNew.User",
-      "projectPath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.User\\SipaksiNew.User.csproj",
+      "projectUniqueName": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.User\\SipaksiNew.Modules.User.Api.csproj",
+      "projectName": "SipaksiNew.Modules.User.Api",
+      "projectPath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.User\\SipaksiNew.Modules.User.Api.csproj",
       "packagesPath": "C:\\Users\\putik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.User\\obj\\",
       "projectStyle": "PackageReference",

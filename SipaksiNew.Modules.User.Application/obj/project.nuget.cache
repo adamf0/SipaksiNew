@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RiXFzGG9UYw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.Modules.User.Application\\SipaksiNew.Modules.User.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\putik\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\putik\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\putik\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\putik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

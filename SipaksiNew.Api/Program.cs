@@ -1,4 +1,4 @@
-using SipaksiNew.User;
+using SipaksiNew.Modules.User.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

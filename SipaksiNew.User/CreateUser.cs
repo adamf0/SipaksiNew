@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
-using SipaksiNew.User.Entities;
+using SipaksiNew.Modules.User.Api.Entities;
 using System.Net;
 
-namespace SipaksiNew.User
+namespace SipaksiNew.Modules.User.Api
 {
     internal class CreateUser
     {

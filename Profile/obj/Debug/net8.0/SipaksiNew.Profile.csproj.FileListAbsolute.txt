@@ -1,0 +1,15 @@
+C:\Users\putik\source\repos\SipaksiNew\Profile\bin\Debug\net8.0\SipaksiNew.Profile.deps.json
+C:\Users\putik\source\repos\SipaksiNew\Profile\bin\Debug\net8.0\SipaksiNew.Profile.runtimeconfig.json
+C:\Users\putik\source\repos\SipaksiNew\Profile\bin\Debug\net8.0\SipaksiNew.Profile.dll
+C:\Users\putik\source\repos\SipaksiNew\Profile\bin\Debug\net8.0\SipaksiNew.Profile.pdb
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.csproj.AssemblyReference.cache
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.AssemblyInfoInputs.cache
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.AssemblyInfo.cs
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.csproj.CoreCompileInputs.cache
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.sourcelink.json
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.dll
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\refint\SipaksiNew.Profile.dll
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.pdb
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\SipaksiNew.Profile.genruntimeconfig.cache
+C:\Users\putik\source\repos\SipaksiNew\Profile\obj\Debug\net8.0\ref\SipaksiNew.Profile.dll

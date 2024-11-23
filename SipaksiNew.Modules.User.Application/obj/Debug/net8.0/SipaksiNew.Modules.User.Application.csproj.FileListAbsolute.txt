@@ -1,0 +1,16 @@
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\bin\Debug\net8.0\SipaksiNew.Modules.User.Application.deps.json
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\bin\Debug\net8.0\SipaksiNew.Modules.User.Application.dll
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\bin\Debug\net8.0\SipaksiNew.Modules.User.Application.pdb
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\bin\Debug\net8.0\SipaksiNew.Modules.User.Domain.dll
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\bin\Debug\net8.0\SipaksiNew.Modules.User.Domain.pdb
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.csproj.AssemblyReference.cache
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.AssemblyInfoInputs.cache
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.AssemblyInfo.cs
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.csproj.CoreCompileInputs.cache
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.sourcelink.json
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiN.052D0B77.Up2Date
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.dll
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\refint\SipaksiNew.Modules.User.Application.dll
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\SipaksiNew.Modules.User.Application.pdb
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Application\obj\Debug\net8.0\ref\SipaksiNew.Modules.User.Application.dll

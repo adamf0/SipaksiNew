@@ -1,0 +1,12 @@
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\bin\Debug\net8.0\SipaksiNew.Modules.User.Domain.deps.json
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\bin\Debug\net8.0\SipaksiNew.Modules.User.Domain.dll
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\bin\Debug\net8.0\SipaksiNew.Modules.User.Domain.pdb
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\SipaksiNew.Modules.User.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\SipaksiNew.Modules.User.Domain.AssemblyInfoInputs.cache
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\SipaksiNew.Modules.User.Domain.AssemblyInfo.cs
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\SipaksiNew.Modules.User.Domain.csproj.CoreCompileInputs.cache
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\SipaksiNew.Modules.User.Domain.sourcelink.json
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\SipaksiNew.Modules.User.Domain.dll
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\refint\SipaksiNew.Modules.User.Domain.dll
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\SipaksiNew.Modules.User.Domain.pdb
+C:\Users\putik\source\repos\SipaksiNew\SipaksiNew.Modules.User.Domain\obj\Debug\net8.0\ref\SipaksiNew.Modules.User.Domain.dll

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace SipaksiNew.User.Entities;
+namespace SipaksiNew.Modules.User.Api.Entities;
 
 public partial class UserContext : DbContext
 {

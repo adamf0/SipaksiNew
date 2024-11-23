@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vkzyYZglvBs=",
+  "dgSpecHash": "Z6N0IfTkEkY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.User\\SipaksiNew.User.csproj",
+  "projectFilePath": "C:\\Users\\putik\\source\\repos\\SipaksiNew\\SipaksiNew.User\\SipaksiNew.Modules.User.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\putik\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\putik\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
